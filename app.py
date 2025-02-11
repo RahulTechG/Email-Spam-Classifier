@@ -3,6 +3,16 @@ import pickle
 import string
 from nltk.corpus import stopwords
 import nltk
+
+
+# Download the stopwords corpus if it hasn't been downloaded already
+nltk.download('stopwords')
+
+from nltk.corpus import stopwords
+import string
+
+# Your other code continues here...
+
 from nltk.stem.porter import PorterStemmer
 
 nltk.download('stopwords')
