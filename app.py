@@ -9,8 +9,8 @@ nltk.download('punkt')
 # Download the stopwords corpus if it hasn't been downloaded already
 nltk.download('stopwords')
 
-from nltk.corpus import stopwords
-import string
+
+
 
 # Your other code continues here...
 
