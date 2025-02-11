@@ -2,8 +2,9 @@ import streamlit as st
 import pickle
 import string
 from nltk.corpus import stopwords
-import nltk
 
+import nltk
+nltk.download('punkt')
 
 # Download the stopwords corpus if it hasn't been downloaded already
 nltk.download('stopwords')
